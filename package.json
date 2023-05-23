@@ -1,0 +1,30 @@
+{
+  "name": "@pubq/pubq-nodejs",
+  "version": "0.1.0",
+  "description": "Nodejs library of Pubq to interact and  publish messages in channels.",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pubqio/pubq-nodejs.git"
+  },
+  "keywords": [
+    "pubq",
+    "pubsub",
+    "messaging",
+    "realtime",
+    "channels",
+    "websocket"
+  ],
+  "author": "Pubq team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pubqio/pubq-nodejs/issues"
+  },
+  "homepage": "https://github.com/pubqio/pubq-nodejs#readme",
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
