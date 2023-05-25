@@ -17,7 +17,7 @@ class HttpApi {
         this.applicationKey = applicationKey;
         this.applicationSecret = applicationSecret;
         this.httpClient = axios_1.default.create({
-            baseURL: "http://api.pubq.test",
+            baseURL: "https://api.pubq.io",
         });
     }
     publish(channel, data) {
