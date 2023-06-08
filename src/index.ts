@@ -16,7 +16,7 @@ class HttpApi {
         this.applicationSecret = applicationSecret;
 
         this.httpClient = axios.create({
-            baseURL: "https://api.pubq.io",
+            baseURL: "https://rest.pubq.io",
         });
     }
 
