@@ -1,6 +1,6 @@
 {
     "name": "@pubq/pubq-nodejs",
-    "version": "0.2.2",
+    "version": "1.0.0",
     "description": "Nodejs library of Pubq to interact and  publish messages in channels.",
     "main": "dist/index.js",
     "scripts": {
